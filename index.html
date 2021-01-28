@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>M2-Evaluacion Intermedia- M. Orts</title>
+    <link rel="stylesheet" href="./style/main.scss" />
+  </head>
+
+  <body class="page">
+    <h1 class="title">Adivina el número</h1>
+    <section class="form">
+      <form>
+        <label class="form__label" for="numberA"
+          >Introduce aquí tu número:</label
+        >
+        <input
+          type="number"
+          name="numberA"
+          id="numberA"
+          class="js-number form__input"
+        />
+        <button type="button" name="button" class="js-test form__button">
+          Prueba
+        </button>
+        <input
+          type="text"
+          name="clue"
+          placeholder="Pista: Escribe el número y dale a Prueba"
+          id="text"
+          class="js-clue form__clue"
+        />
+        <input
+          type="text"
+          name="numero de intentos"
+          placeholder="Número de intentos: 0"
+          id="text"
+          class="js-try form__try"
+        />
+      </form>
+    </section>
+    <script type="text/javascript" src="./js/main.js"></script>
+  </body>
+</html>

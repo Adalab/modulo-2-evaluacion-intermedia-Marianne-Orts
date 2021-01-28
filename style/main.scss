@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  &__label {
+  }
+  &__input {
+  }
+  &__button {
+    background-color: teal;
+    color: white;
+  }
+  &__text {
+  }
+  &__try {
+  }
+}
